@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		608C77C1174E33A000027971 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 608C77C0174E33A000027971 /* UIKit.framework */; };
+		608C77C3174E33A000027971 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 608C77C2174E33A000027971 /* Foundation.framework */; };
+		608C77C5174E33A000027971 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 608C77C4174E33A000027971 /* CoreGraphics.framework */; };
+		608C77CB174E33A000027971 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 608C77C9174E33A000027971 /* InfoPlist.strings */; };
+		608C77CD174E33A000027971 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 608C77CC174E33A000027971 /* main.m */; };
+		608C77D1174E33A000027971 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 608C77D0174E33A000027971 /* AppDelegate.m */; };
+		608C77D3174E33A000027971 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 608C77D2174E33A000027971 /* Default.png */; };
+		608C77D5174E33A000027971 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 608C77D4174E33A000027971 /* Default@2x.png */; };
+		608C77D7174E33A000027971 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 608C77D6174E33A000027971 /* Default-568h@2x.png */; };
+		608C77DA174E33A000027971 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608C77D8174E33A000027971 /* MainStoryboard_iPhone.storyboard */; };
+		608C77DD174E33A000027971 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 608C77DB174E33A000027971 /* MainStoryboard_iPad.storyboard */; };
+		608C77E0174E33A000027971 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 608C77DF174E33A000027971 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		608C77BD174E33A000027971 /* CameraAndPhotoAlbum.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CameraAndPhotoAlbum.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		608C77C0174E33A000027971 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		608C77C2174E33A000027971 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		608C77C4174E33A000027971 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		608C77C8174E33A000027971 /* CameraAndPhotoAlbum-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CameraAndPhotoAlbum-Info.plist"; sourceTree = "<group>"; };
+		608C77CA174E33A000027971 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		608C77CC174E33A000027971 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		608C77CE174E33A000027971 /* CameraAndPhotoAlbum-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CameraAndPhotoAlbum-Prefix.pch"; sourceTree = "<group>"; };
+		608C77CF174E33A000027971 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		608C77D0174E33A000027971 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		608C77D2174E33A000027971 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		608C77D4174E33A000027971 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		608C77D6174E33A000027971 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		608C77D9174E33A000027971 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		608C77DC174E33A000027971 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		608C77DE174E33A000027971 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		608C77DF174E33A000027971 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		608C77BA174E33A000027971 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608C77C1174E33A000027971 /* UIKit.framework in Frameworks */,
+				608C77C3174E33A000027971 /* Foundation.framework in Frameworks */,
+				608C77C5174E33A000027971 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		608C77B4174E33A000027971 = {
+			isa = PBXGroup;
+			children = (
+				608C77C6174E33A000027971 /* CameraAndPhotoAlbum */,
+				608C77BF174E33A000027971 /* Frameworks */,
+				608C77BE174E33A000027971 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		608C77BE174E33A000027971 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				608C77BD174E33A000027971 /* CameraAndPhotoAlbum.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		608C77BF174E33A000027971 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				608C77C0174E33A000027971 /* UIKit.framework */,
+				608C77C2174E33A000027971 /* Foundation.framework */,
+				608C77C4174E33A000027971 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		608C77C6174E33A000027971 /* CameraAndPhotoAlbum */ = {
+			isa = PBXGroup;
+			children = (
+				608C77CF174E33A000027971 /* AppDelegate.h */,
+				608C77D0174E33A000027971 /* AppDelegate.m */,
+				608C77D8174E33A000027971 /* MainStoryboard_iPhone.storyboard */,
+				608C77DB174E33A000027971 /* MainStoryboard_iPad.storyboard */,
+				608C77DE174E33A000027971 /* ViewController.h */,
+				608C77DF174E33A000027971 /* ViewController.m */,
+				608C77C7174E33A000027971 /* Supporting Files */,
+			);
+			path = CameraAndPhotoAlbum;
+			sourceTree = "<group>";
+		};
+		608C77C7174E33A000027971 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				608C77C8174E33A000027971 /* CameraAndPhotoAlbum-Info.plist */,
+				608C77C9174E33A000027971 /* InfoPlist.strings */,
+				608C77CC174E33A000027971 /* main.m */,
+				608C77CE174E33A000027971 /* CameraAndPhotoAlbum-Prefix.pch */,
+				608C77D2174E33A000027971 /* Default.png */,
+				608C77D4174E33A000027971 /* Default@2x.png */,
+				608C77D6174E33A000027971 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		608C77BC174E33A000027971 /* CameraAndPhotoAlbum */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 608C77E3174E33A000027971 /* Build configuration list for PBXNativeTarget "CameraAndPhotoAlbum" */;
+			buildPhases = (
+				608C77B9174E33A000027971 /* Sources */,
+				608C77BA174E33A000027971 /* Frameworks */,
+				608C77BB174E33A000027971 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CameraAndPhotoAlbum;
+			productName = CameraAndPhotoAlbum;
+			productReference = 608C77BD174E33A000027971 /* CameraAndPhotoAlbum.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		608C77B5174E33A000027971 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Dolice;
+			};
+			buildConfigurationList = 608C77B8174E33A000027971 /* Build configuration list for PBXProject "CameraAndPhotoAlbum" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 608C77B4174E33A000027971;
+			productRefGroup = 608C77BE174E33A000027971 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				608C77BC174E33A000027971 /* CameraAndPhotoAlbum */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		608C77BB174E33A000027971 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608C77CB174E33A000027971 /* InfoPlist.strings in Resources */,
+				608C77D3174E33A000027971 /* Default.png in Resources */,
+				608C77D5174E33A000027971 /* Default@2x.png in Resources */,
+				608C77D7174E33A000027971 /* Default-568h@2x.png in Resources */,
+				608C77DA174E33A000027971 /* MainStoryboard_iPhone.storyboard in Resources */,
+				608C77DD174E33A000027971 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		608C77B9174E33A000027971 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				608C77CD174E33A000027971 /* main.m in Sources */,
+				608C77D1174E33A000027971 /* AppDelegate.m in Sources */,
+				608C77E0174E33A000027971 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		608C77C9174E33A000027971 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				608C77CA174E33A000027971 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		608C77D8174E33A000027971 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				608C77D9174E33A000027971 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		608C77DB174E33A000027971 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				608C77DC174E33A000027971 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		608C77E1174E33A000027971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		608C77E2174E33A000027971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		608C77E4174E33A000027971 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CameraAndPhotoAlbum/CameraAndPhotoAlbum-Prefix.pch";
+				INFOPLIST_FILE = "CameraAndPhotoAlbum/CameraAndPhotoAlbum-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		608C77E5174E33A000027971 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CameraAndPhotoAlbum/CameraAndPhotoAlbum-Prefix.pch";
+				INFOPLIST_FILE = "CameraAndPhotoAlbum/CameraAndPhotoAlbum-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		608C77B8174E33A000027971 /* Build configuration list for PBXProject "CameraAndPhotoAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608C77E1174E33A000027971 /* Debug */,
+				608C77E2174E33A000027971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		608C77E3174E33A000027971 /* Build configuration list for PBXNativeTarget "CameraAndPhotoAlbum" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				608C77E4174E33A000027971 /* Debug */,
+				608C77E5174E33A000027971 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 608C77B5174E33A000027971 /* Project object */;
+}
